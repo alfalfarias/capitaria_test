@@ -3,15 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Horario</title>
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
         <!-- Styles -->
-        <style>
-        </style>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
@@ -431,6 +426,6 @@
             <button id="submit" class="button submit full-width">CARGAR DATOS</button>
         </div>
         <!-- Scripts -->
-        <script src="{{ asset('/js/app.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('/js/app.js') }}"></script>
     </body>
 </html>

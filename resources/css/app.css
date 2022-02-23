@@ -24,6 +24,10 @@ body {
     padding: 10px;
     line-height: 1;
     vertical-align: top;
+    max-width: 38px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .table-cell-selected {
     background: #008cba61;
